@@ -4,18 +4,19 @@
 
 1. **Vérifiez la branche ou le commit que vous souhaitez taguer :**
    ```sh
-   git checkout <branche-ou-commit>
+   git checkout nginx_ha
+   >
    ```
 
 2. **Créez une nouvelle balise :**
    ```sh
-   git tag -a <nom-de-la-balise> -m "<message-de-la-balise>"
+   git tag -a  -m "<message-dhttps://github.com/khad-coder/nginx_ha.gite-la-balise>"
    ```
-   Remplacez `<nom-de-la-balise>` par le nom souhaité pour la balise et `<message-de-la-balise>` par un message décrivant la balise.
+   Remplacez `nginx_ha par le nom souhaité pour la balise et `<message-de-la-balise>` par un message décrivant la balise.
 
 3. **Poussez la balise vers le dépôt distant :**
    ```sh
-   git push origin <nom-de-la-balise>
+   git push origin nginx_ha
    ```
 
 ## Exemple
